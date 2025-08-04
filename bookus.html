@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<hthead>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    
+    
+    <title>purezone <ml lang="EN">
+    website</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+  
+
+ 
+ 
+<body>
+<header>
+
+    <ul class="nav-links">
+       <li>PZ Cleaninig</li>
+        <li><a href="index.html">HOME</a></li>
+         <li><a href="bookus.html">BOOK US</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+</ul>
+
+</header>
+
+
+ <section class="booking-section">
+        <h1>Book a Cleaning Appointment</h1>
+        <form action="https://formspree.io/f/mkgzvdpv" method="POST">
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+            
+
+             <label for="location">Lcation:</label>
+            <input type="text" id="name" location="name" required />
+
+            <label for="service">Service Type:</label>
+            <select id="service" name="service" required>
+                <option value="">--Select a service--</option>
+                <option value="standard">Office Cleaning</option>
+                <option value="deep">Home Cleaning</option>
+                <option value="moveout">Move-In/Move-Out</option>
+                <option value="Other">Other</option>
+              
+            </select>
+
+
+           <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Anything else we should know?"></textarea>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+        <p class="confirmation-message">We will contact you via WhatsApp to complete your booking.</p>
+
+</section>
+</body>
+</html>
